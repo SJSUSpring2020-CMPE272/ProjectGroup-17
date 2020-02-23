@@ -1,4 +1,4 @@
-# ProjectGroup-17
+# Project Group-17
 
 ## Project Idea 1 : MediCALL
 ### Project Idea Description :
