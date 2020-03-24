@@ -1,17 +1,4 @@
-# Project Group-17
 
-## Project Idea 1 : MediCALL
-### Project Idea Description :
-MediCALL automates the process of booking X - Ray appointments, Consultation Visits and Requirement for Over the Counter Drugs for public health issues. MediCALL can provide the services in the absence of Internet Connectivity or Tech savvy knowledge.
-MediCALL is an IOT and cloud based system which receives the caller input in the form of robocall input and will provide the appropriate service i.e. appointment booking, consultation visit timing and OTC drugs information via text SMS to the caller.
-
-### Goal ( Who are the users? ) :
-Any user having a feature phone or a smartphone without internet connectivity will be able to access minimum health care services.
-
-### Technology Stack :
-IOT : Raspberry Pi, GSM Module, Audio Jack (3.5 mm) <br>
-Cloud : Firebase (Database, Cloud function) <br>
-Languages : Python
 
 ## Project Idea 2: - Traffic Governance System
 # Approved
@@ -27,14 +14,3 @@ People travelling in the day to day life for work will also be benefited by redu
 Frontend: - HTML, CSS, Bootstrap, JS <br>
 Database: - Mysql <br>
 Backend and Tools: - Python, OpenCV, Flask (Framework), MatplotLib
-
-## Project Idea 3: Real or Not!! Disaster Tweets
-### Project idea description: 
-Twitter has become an important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies).
-But, it’s not always clear whether a person’s words are actually announcing a disaster. For example, sometimes people use words like “ABLAZE”, “SHAKING”, “FLOODED” metaphorically in day-to-day activities. These same words can also be used in disastrous events which would lead to misinterpretation of the actual event happening. 
-
-### Goal: 
-To predict whether the tweets with words describing unfortunate events literally represent those events at the location tagged in the tweet.
-
-### Technology stack: 
-Jupyter Notebook, Python libraries, Support Vector Machine
