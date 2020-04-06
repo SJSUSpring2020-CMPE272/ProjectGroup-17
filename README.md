@@ -15,6 +15,8 @@ Frontend: - HTML, CSS, Bootstrap, JS <br>
 Database: - Mysql <br>
 Backend and Tools: - Python, OpenCV, Flask (Framework), MatplotLib
 
+### Architecture Diagram
+![Architecture Diagram](/images/WatsonArchitectureDiagram.png)
 
 ### Class Diagram:
 There two main class Admin and Police Staff.<br>
