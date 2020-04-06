@@ -42,3 +42,10 @@ Apart from these admin can generate report, view and acknowledge to complaints a
 
 ![4](https://user-images.githubusercontent.com/46435796/78605973-60adc700-7811-11ea-9529-553d0bab0d6d.jpg)
 
+### Sequence Diagram:
+
+The police staff can register/login to the system. After successful access, they can do certain tasks such as request a report, post a notification or a complaint etc.
+
+![WhatsApp Image 2020-04-04 at 8 55 24 PM](https://user-images.githubusercontent.com/52833369/78614623-dfabfb00-7823-11ea-98e3-3b53436015df.jpeg)
+
+
