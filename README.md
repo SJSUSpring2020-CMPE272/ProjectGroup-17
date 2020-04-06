@@ -22,3 +22,9 @@ There two main class Admin and Police Staff.<br>
 - The Police Staff members can request for reports , add feedback , etc.
 
 ![e8e2e2fa-1592-43fc-8f44-96c0b04220a4](https://user-images.githubusercontent.com/29951473/78604307-7cfc3480-780e-11ea-9312-5f197de36680.jpg)
+
+
+### System Flow Diagram:
+As shown in the flow diagram, Admin will be responsible for adding new dataset, generating reports and alter traffic timer, whereas Police Staff will be responsible for adding new complaints and giving feedback.
+
+![System Flow](/images/SystemFlowDiagram.jpeg)
