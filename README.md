@@ -14,3 +14,11 @@ People travelling in the day to day life for work will also be benefited by redu
 Frontend: - HTML, CSS, Bootstrap, JS <br>
 Database: - Mysql <br>
 Backend and Tools: - Python, OpenCV, Flask (Framework), MatplotLib
+
+
+### Class Diagram:
+There two main class Admin and Police Staff.<br>
+- The admin has functionalities like Adding Staff members, altering timer, etc.
+- The Police Staff members can request for reports , add feedback , etc.
+
+![e8e2e2fa-1592-43fc-8f44-96c0b04220a4](https://user-images.githubusercontent.com/29951473/78604307-7cfc3480-780e-11ea-9312-5f197de36680.jpg)
