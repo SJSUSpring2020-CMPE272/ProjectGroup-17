@@ -28,3 +28,15 @@ There two main class Admin and Police Staff.<br>
 As shown in the flow diagram, Admin will be responsible for adding new dataset, generating reports and alter traffic timer, whereas Police Staff will be responsible for adding new complaints and giving feedback.
 
 ![System Flow](/images/SystemFlowDiagram.jpeg)
+
+
+### Data Flow Diagram:
+
+Following picture shows how the data will flow in the system.
+Admin is termed as the actor or user whereas Tables on the rightmost side are data stores. Round objects are the procedures that are executed by admin on data store to manipulate data.
+
+So, as shown admin can Organize staff by adding, updating or deleting, Regulate dataset by adding new data in terms of frames to the system, Alter signal timer according to the results of detection.
+Apart from these admin can generate report, view and acknowledge to complaints and feedback posted by user.
+
+![4](https://user-images.githubusercontent.com/46435796/78605973-60adc700-7811-11ea-9529-553d0bab0d6d.jpg)
+
