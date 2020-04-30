@@ -22,6 +22,9 @@ Run Docker image <br>
 
 ### API via Postman
 ``` http://localhost:5000/api-detection ```
+### Kubernetes
+Since the algorithm consumes atleast 3GB of memory and needs atleast 4 CPUs to execute at a moderate pace, it was tough to get such processing power in free tiers in Cloud Platforms. Hence, we installed ```minikube``` to create a local Kubernetes cluster and ```virtualbox``` to create VM to simulate Kubernetes Engine.
+
 
 ### Architecture Diagram
 ![Architecture Diagram](/images/TrafficGovernanceSystem.jpg)
