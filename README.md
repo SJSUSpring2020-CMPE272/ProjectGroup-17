@@ -14,5 +14,14 @@ People travelling in the day to day life for work will also be benefited by redu
 Frontend: - HTML, CSS, Bootstrap, JS <br>
 Backend and Tools: - Python, OpenCV, Flask (Framework), YOLO-v3, dlib
 
+### Docker Image
+Pull Docker image <br>
+``` docker pull mrugeshmaster/yolo_tgs:1.1  ``` <br><br>
+Run Docker image <br>
+``` docker run -d -p 5000:5000 mrugeshmaster/yolo_tgs:1.1 ``` <br>
+
 ### Architecture Diagram
 ![Architecture Diagram](/images/TrafficGovernanceSystem.jpg)
+
+
+> Note: yolov3.weights is too large to upload in Github Repo. Download [yolov3.weights](https://pjreddie.com/media/files/yolov3.weights) and place it in yolo directory.
