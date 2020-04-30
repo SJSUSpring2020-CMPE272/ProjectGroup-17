@@ -12,40 +12,7 @@ People travelling in the day to day life for work will also be benefited by redu
 
 ### Technology Stack:
 Frontend: - HTML, CSS, Bootstrap, JS <br>
-Database: - Mysql <br>
-Backend and Tools: - Python, OpenCV, Flask (Framework), MatplotLib
+Backend and Tools: - Python, OpenCV, Flask (Framework), YOLO-v3, dlib
 
 ### Architecture Diagram
-![Architecture Diagram](/images/WatsonArchitectureDiagram.png)
-
-### Class Diagram:
-There two main class Admin and Police Staff.<br>
-- The admin has functionalities like Adding Staff members, altering timer, etc.
-- The Police Staff members can request for reports , add feedback , etc.
-
-![e8e2e2fa-1592-43fc-8f44-96c0b04220a4](https://user-images.githubusercontent.com/29951473/78604307-7cfc3480-780e-11ea-9312-5f197de36680.jpg)
-
-
-### System Flow Diagram:
-As shown in the flow diagram, Admin will be responsible for adding new dataset, generating reports and alter traffic timer, whereas Police Staff will be responsible for adding new complaints and giving feedback.
-
-![System Flow](/images/SystemFlowDiagram.jpeg)
-
-
-### Data Flow Diagram:
-
-Following picture shows how the data will flow in the system.
-Admin is termed as the actor or user whereas Tables on the rightmost side are data stores. Round objects are the procedures that are executed by admin on data store to manipulate data.
-
-So, as shown admin can Organize staff by adding, updating or deleting, Regulate dataset by adding new data in terms of frames to the system, Alter signal timer according to the results of detection.
-Apart from these admin can generate report, view and acknowledge to complaints and feedback posted by user.
-
-![4](https://user-images.githubusercontent.com/46435796/78605973-60adc700-7811-11ea-9529-553d0bab0d6d.jpg)
-
-### Sequence Diagram:
-
-The police staff can register/login to the system. After successful access, they can do certain tasks such as request a report, post a notification or a complaint etc.
-
-![WhatsApp Image 2020-04-04 at 8 55 24 PM](https://user-images.githubusercontent.com/52833369/78614623-dfabfb00-7823-11ea-98e3-3b53436015df.jpeg)
-
-
+![Architecture Diagram](/images/TrafficGovernanceSystem.jpg)
