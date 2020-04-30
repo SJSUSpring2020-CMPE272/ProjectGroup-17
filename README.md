@@ -20,6 +20,9 @@ Pull Docker image <br>
 Run Docker image <br>
 ``` docker run -d -p 5000:5000 mrugeshmaster/yolo_tgs:1.1 ``` <br>
 
+### API via Postman
+``` http://localhost:5000/api-detection ```
+
 ### Architecture Diagram
 ![Architecture Diagram](/images/TrafficGovernanceSystem.jpg)
 
