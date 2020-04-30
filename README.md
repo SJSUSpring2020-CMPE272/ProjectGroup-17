@@ -11,8 +11,10 @@ The scope of this project is very vast; people travelling long distances will be
 People travelling in the day to day life for work will also be benefited by reducing the waiting time on the signals. It will help to create fewer congestion on the crossroads and the heavy lane.
 
 ### Technology Stack:
-Frontend: - HTML, CSS, Bootstrap, JS <br>
-Backend and Tools: - Python, OpenCV, Flask (Framework), YOLO-v3, dlib
+Frontend: HTML, CSS, Bootstrap, JS <br>
+Backend: Python, Flask (Web Framework)<br>
+Machine Learning Tools: YOLO-v3, OpenCV, dlib<br>
+Cloud Tools: Docker, Kubernetes<br>
 
 ### Docker Image
 Pull Docker image <br>
