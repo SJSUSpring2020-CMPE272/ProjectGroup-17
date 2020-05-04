@@ -33,6 +33,8 @@ Run Docker image <br>
 ### Kubernetes
 Since the algorithm consumes atleast 3GB of memory and needs atleast 4 CPUs to execute at a moderate pace, it was tough to get such processing power in free tiers in Cloud Platforms. Hence, we installed ```minikube``` to create a local Kubernetes cluster and ```virtualbox``` to create VM to simulate Kubernetes Engine.
 
+Update: By trimming the video, we were able to utilize IBM Kubernetes resources to host the docker image and run the application. IBM Kubernetes creates a free Cluster with 2 vCPUs and 4GB RAM and allows NodePort service to communicate with the pods.
+
 ### Object Detection
 We used YOLOv3 to implement object detection to detect number of objects in a video, OpenCV to convert the video in frames. Using pre-trained weights by YOLO and coco.names labelset, the program detects a person, car, truck, bus and bicycle. Each frame is consumed by YOLO algorithm to count the number of objects. To filter out weak predictions, we set the confidence > 0.6. YOLOv3 uses a neural network with 53 Convolution layers as per [YOLOv3 Paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf)<br>
 To avoid, duplicate count of the same object, we used dlib to implement a correlation tracker. The tracker assigns a unique ID to the object. While detecting the objects, the program checks for the presence of unique ID. If a unique ID exits, the program will skip the object. We learnt about correlation trackers from [IEEE Paper : Vehicle Counting for Traffic Management System using YOLO and Correlation Filter](https://ieeexplore.ieee.org/document/8482380)
